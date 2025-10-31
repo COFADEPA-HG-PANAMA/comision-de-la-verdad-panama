@@ -1,0 +1,8 @@
+/* Shared site stylesheet added by automation */
+body {
+  background-image: url('../Verdad/texture.png');
+  background-repeat: repeat;
+  background-color: #ffffff;
+}
+/* Center main fixed-width tables */
+table { margin: 0 auto; }

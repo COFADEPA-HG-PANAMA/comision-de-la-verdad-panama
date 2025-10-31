@@ -1,0 +1,354 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<title>Los casos cerrados</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<script language="JavaScript" type="text/JavaScript">
+<!--
+function MM_reloadPage(init) {  //reloads the window if Nav4 resized
+  if (init==true) with (navigator) {if ((appName=="Netscape")&&(parseInt(appVersion)==4)) {
+    document.MM_pgW=innerWidth; document.MM_pgH=innerHeight; onresize=MM_reloadPage; }}
+  else if (innerWidth!=document.MM_pgW || innerHeight!=document.MM_pgH) location.reload();
+}
+MM_reloadPage(true);
+//-->
+</script>
+</head>
+<body background="../Activos/lado11.gif" link="#993366" vlink="#003366">
+<div id="Layer1" style="position:absolute; left:67px; top:91px; width:680px; height:283px; z-index:1"> 
+  <p align="justify"><font color="#993366" size="4"><strong><a href="Indice.htm"><img src="../AnFlesh.gif" width="16" height="27" border="0"></a> 
+    <b>Los casos cerrados<br>
+    </b></strong></font><font color="#993366" size="2"><strong><font size="4"><br>
+    Andr&eacute;s Armuelles Cortez. CV-A-003-01</font></strong></font><font size="2"><br>
+    Muerte fuera del per&iacute;odo de la Comisi&oacute;n de la Verdad. Muere 
+    el 1 de junio de 1968 a consecuencia de una hemorragia interna producida por 
+    herida punzo cortante.<br>
+    </font><font color="#993366" size="4"><strong><br>
+    Fernando Brathwhite. CV-A-009-01</strong></font><font size="2"><br>
+    Muerte fuera del per&iacute;odo de la Comisi&oacute;n de la Verdad. Muere 
+    el 20 de diciembre de 1989 durante la invasi&oacute;n norteamericana.<br>
+    </font><font color="#993366" size="4"><strong><br>
+    Ram&oacute;n Cruz. CV-A-018-01</strong></font><font size="2"><br>
+    No existe la persona. Se trata de una confusi&oacute;n de nombres entre Ram&oacute;n 
+    Mojica y Cruz Mojica.</font></p>
+  <p align="justify"><font color="#993366" size="4"><strong>Ra&uacute;l Rogelio 
+    Cisneros Vel&aacute;squez. CV-A-016-01 </strong></font><font size="2"><br>
+    Muerte por causa distinta a la competencia de la Comisi&oacute;n. Fue encontrado 
+    muerto en el maletero de su auto. La Comisi&oacute;n no encontr&oacute; elemento 
+    alguno que indique que el asesinato del se&ntilde;or Ra&uacute;l Rogelio Cisneros 
+    Vel&aacute;squez tuvo alguna motivaci&oacute;n pol&iacute;tica o sea distinto 
+    a un delito com&uacute;n de homicidio.</font></p>
+  <p align="justify"><font color="#993366" size="4"><strong>Hip&oacute;lito Cubas 
+    P&eacute;rez. CV-A-019-01</strong></font><font size="2"><br>
+    Muerte por causa distinta a la competencia de la Comisi&oacute;n. Muere a 
+    consecuencia de un accidente de tr&aacute;nsito.</font></p>
+  <p align="justify"><font color="#993366" size="4"><strong>Antolino Chavarr&iacute;a. 
+    CV-A-021-01</strong></font><font size="2"><br>
+    Muerte por causa distinta a la competencia de la Comisi&oacute;n. Todo indica 
+    que la responsabilidad del asesinato recae en un particular y no se tiene 
+    evidencia que el mismo actu&oacute; bajo pretexto pol&iacute;tico, raz&oacute;n 
+    por la cual no se puede responsabilizar al Estado por este homicidio. </font></p>
+  <p align="justify"><font color="#993366" size="4"><strong>Jos&eacute; Manuel 
+    Espinoza. CV-A-026-01 </strong></font><font size="2"><br>
+    Muerte por causa distinta a la competencia de la Comisi&oacute;n. Con base 
+    a las diligencias practicadas e informaci&oacute;n reunida sobre la muerte 
+    de la v&iacute;ctima se determin&oacute; que fue muerte accidental. La v&iacute;ctima 
+    pose&iacute;a un rifle calibre 22 autom&aacute;tico con la cajilla llena de 
+    balas, las cuales estaban metidas en un saco y una jaba, al tratar de sacar 
+    el arma cuya direcci&oacute;n era al &aacute;rea pr&oacute;xima a la sien 
+    del se&ntilde;or Espinoza se ocasion&oacute; &eacute;l mismo un disparo que 
+    le produjo la muerte.</font></p>
+  <p align="justify"><font color="#993366" size="4"><strong>Encarnaci&oacute;n 
+    Gait&aacute;n. CV-A-028-01</strong></font><font size="2"><br>
+    Muerte fuera del per&iacute;odo de la Comisi&oacute;n de la Verdad. Muere 
+    el 9 de agosto de 1968.</font></p>
+  <p align="justify"><font color="#993366" size="4"><strong>Natividad Gonz&aacute;lez 
+    Elizondro. CV-A-034-01</strong></font><font size="2"><br>
+    La persona est&aacute; viva. Se le entrevist&oacute; en el corregimiento de 
+    Santa Cruz, Renacimiento, provincia de Chiriqu&iacute;. En la actualidad se 
+    desempe&ntilde;a como funcionario del Ministerio de Salud.</font></p>
+  <p align="justify"><font color="#993366" size="4"><strong>Daniel Gonz&aacute;lez 
+    Quir&oacute;s. CV-A-036-01</strong></font><font size="2"><br>
+    La persona est&aacute; viva. Reside en la comunidad de San Ram&oacute;n, en 
+    Costa Rica.</font></p>
+  <p align="justify"><font color="#993366" size="4"><strong>Coloma Guti&eacute;rrez. 
+    CV-A-042-01 </strong></font><font size="2"><br>
+    No existe la persona. Es una confusi&oacute;n de nombres entre Jos&eacute; 
+    &Aacute;ngel Guti&eacute;rrez Vega y Jos&eacute; de la Concepci&oacute;n Rojas 
+    Coloma quienes fallecen a ra&iacute;z del enfrentamiento ocurrido el 7 de 
+    mayo de 1984 en la parte exterior del Palacio Legislativo.</font></p>
+  <p align="justify"><font color="#993366" size="4"><strong>Jos&eacute; Guzm&aacute;n 
+    Quijada. CV-A-045-01</strong></font><font size="2"><br>
+    Muerte por causa distinta a la competencia de la Comisi&oacute;n. Muere en 
+    un accidente de la aeronave HP-680 en el trayecto de El Real a La Palma, en 
+    la provincia de Dari&eacute;n. La Comisi&oacute;n no encontr&oacute; ning&uacute;n 
+    indicio de que el accidente de la aeronave haya sido con el objetivo de cometer 
+    un delito o que se hayan violado derechos humanos.</font></p>
+  <p align="justify"><font color="#993366" size="4"><strong>Jorge Rodolfo Herrera 
+    Mu&ntilde;oz. CV-A-047-01</strong></font><strong><font size="2"> </font></strong><font size="2"><br>
+    Muerte por causa distinta a la competencia de la Comisi&oacute;n. Todo indica 
+    que la responsabilidad del asesinato recae en un particular y no se tiene 
+    evidencia que el mismo actu&oacute; bajo pretexto pol&iacute;tico, raz&oacute;n 
+    por la cual no se puede responsabilizar al Estado por este homicidio. </font></p>
+  <p align="justify"><font size="4"><strong><font color="#993366">Roy McFarlane. 
+    CV-A-052-01</font></strong></font><font color="#993366" size="2"></font><font size="2"><br>
+    Muerte por causa distinta a la competencia de la Comisi&oacute;n. El se&ntilde;or 
+    McFarlane fue acusado de actos libidinosos en contra de dos ni&ntilde;as en 
+    el Teatro Col&oacute;n. De acuerdo a la informaci&oacute;n del sumario &#8220;se 
+    trat&oacute; de un tumulto a consecuencia de la ira colectiva que se produjo 
+    con motivo de la actividad de McFarlane&#8221;. El certificado de defunci&oacute;n 
+    se&ntilde;ala como causa de muerte &#8220;contusi&oacute;n encef&aacute;lica, 
+    hemorragia intracraneal&#8221;.<br>
+    <font color="#993366" size="4"><strong><br>
+    Roberto McLaughdin. CV-A-053-01</strong></font><br>
+    La persona est&aacute; viva. Labora como maestro en la Escuela Residencial 
+    de Vacamonte.</font></p>
+  <p align="justify"><font color="#993366" size="4"><strong>Seraf&iacute;n Mitrotti 
+    Portocarrero. CV-A-058-01</strong></font><font size="2"><br>
+    Muerte por causa distinta a la competencia de la Comisi&oacute;n. Con base 
+    en las diligencias practicadas e informaci&oacute;n reunida sobre la muerte 
+    del se&ntilde;or Mitrotti no se puede establecer una vinculaci&oacute;n con 
+    agentes del Estado ni muerte producida bajo un contexto pol&iacute;tico.</font></p>
+  <p align="justify"><font color="#993366" size="4"><strong>Rub&eacute;n Dar&iacute;o 
+    Moncada Guerra. CV-A-061-01</strong></font><font size="2"><br>
+    Muerte por causa distinta a la competencia de la Comisi&oacute;n. Muere el 
+    12 de junio de 1987 por causas naturales.</font></p>
+  <p align="justify"><font color="#993366" size="4"><strong>F&eacute;lix Octavio 
+    Monta&ntilde;&eacute;s. CV-A-062-01 </strong></font><font size="2"><br>
+    Muerte por causa distinta a la competencia de la Comisi&oacute;n. Muere en 
+    un accidente de tr&aacute;nsito el 15 de marzo de 1975.</font></p>
+  <p align="justify"><font size="4"><strong><font color="#993366">Oscar Olmedo 
+    Olmos Pitt&iacute;. CV-A-069-01</font></strong></font><font color="#993366" size="2"></font><font size="2"><br>
+    La persona est&aacute; viva. La informaci&oacute;n recibida por la Comisi&oacute;n 
+    indicaba el nombre de On&eacute;simo Olmos (comandante). El verdadero nombre 
+    es Oscar Olmedo Olmos Pitt&iacute; y reside en Palmira Centro, provincia de 
+    Chiriqu&iacute;.</font></p>
+  <p align="justify"><font size="4"><strong><font color="#993366">Camilo Octavio 
+    P&eacute;rez Hern&aacute;ndez. CV-A-072-01</font></strong></font><font color="#993366" size="2"></font><font size="2"><br>
+    Muerte por causa distinta a la competencia de la Comisi&oacute;n. El &uacute;nico 
+    v&iacute;nculo con el R&eacute;gimen Militar es que supuestamente la agencia 
+    de seguridad en donde trabajaba el homicida era propiedad del militar Nivaldo 
+    Madri&ntilde;&aacute;n, sin embargo, &eacute;ste no aparece registrado como 
+    parte de la empresa ni en el Registro P&uacute;blico, ni en el Ministerio 
+    de Comercio e Industrias (MICI). </font></p>
+  <p align="justify"><font color="#993366" size="4"><strong>Jaime Javier Pimentel. 
+    CV-A-074-01</strong></font><font size="2"><br>
+    La persona est&aacute; viva. Fue entrevistado personalmente en las oficinas 
+    de la Comisi&oacute;n de la Verdad.</font></p>
+  <p align="justify"><font color="#993366" size="4"><strong>Mar&iacute;a Florentina 
+    Quiroz Mart&iacute;nez. CV-A-078-01</strong></font><font size="2"><br>
+    Muerte por causa distinta a la competencia de la Comisi&oacute;n. El &uacute;nico 
+    responsable del asesinato es un ciudadano com&uacute;n, raz&oacute;n por la 
+    cual no se puede responsabilizar al Estado por este homicidio y no existe 
+    evidencia de que el homicida actu&oacute; como particular bajo pretexto pol&iacute;tico.</font></p>
+  <p align="justify"><font color="#993366" size="4"><strong>Jos&eacute; Dar&iacute;o 
+    Rivera Hern&aacute;ndez. CV-A-079-01</strong></font><font size="2"><br>
+    Muerte por causa distinta a la competencia de la Comisi&oacute;n. Muere a 
+    consecuencia de leucemia (causa natural) el 14 de agosto de 1986.</font></p>
+  <p align="justify"><font color="#993366" size="4"><strong>Bill Sruta. CV-A-092-01</strong></font><font size="2"><br>
+    Muerte fuera del per&iacute;odo de la Comisi&oacute;n de la Verdad y por causas 
+    distintas. Muere en 1991 en Costa Rica a consecuencia de un ataque cardiaco 
+    (causa natural).</font></p>
+  <p align="justify"><font color="#993366" size="4"><strong>Candelaria Torres. 
+    CV-A-094-01</strong></font><font size="2"><br>
+    No existe la persona. La informaci&oacute;n proporcionada por COFADEPA-HG 
+    se&ntilde;ala que los hechos ocurrieron en Santa Fe, provincia de Veraguas. 
+    Se entrevistaron a m&uacute;ltiples personas en la zona e indicaron no conocer 
+    a la persona. Seguramente fue una confusi&oacute;n de nombre con Candelario 
+    Torres, que s&iacute; es una v&iacute;ctima del R&eacute;gimen Militar. </font></p>
+  <p align="justify"><font color="#993366" size="4"><strong>Luis Emilio Veces 
+    Barr&iacute;a. CV-A-100-01</strong></font><font size="2"><br>
+    Muerte por causa distinta a la competencia de la Comisi&oacute;n. Muere el 
+    24 de abril de 1982 a consecuencia de un accidente de tr&aacute;nsito.</font></p>
+  <p align="justify"><font color="#993366" size="4"><strong>Julio Mario Villarreal 
+    Castillo. CV-A-101-01</strong></font><font size="2"><br>
+    La persona est&aacute; viva. Labora en Petroterminal de Panam&aacute;, en 
+    la provincia de Chiriqu&iacute;. Es hijo de Julio Mario Villarreal De Las 
+    Casas, expediente CV-D-102-01.</font></p>
+  <p align="justify"><font color="#993366" size="4"><strong>Eduardo Antonio White 
+    Fern&aacute;ndez. CV-A-103-01</strong></font><font size="2"><br>
+    Muerte por causa distinta a la competencia de la Comisi&oacute;n. Muere por 
+    c&aacute;ncer pulmonar (causa natural). Se consult&oacute; la opini&oacute;n 
+    m&eacute;dica para descartar una posible relaci&oacute;n entre la enfermedad 
+    de la v&iacute;ctima y los golpes que recibi&oacute; cuando estuvo detenido. 
+    El especialista inform&oacute; que el tipo de c&aacute;ncer de la v&iacute;ctima 
+    no se produce a causa de golpes.</font></p>
+  <p align="justify"><font color="#993366" size="4"><strong>Rosenda &Aacute;brego. 
+    CV-D-002-01</strong></font><font size="2"><br>
+    Muerte por causa distinta a la competencia de la Comisi&oacute;n. Muere por 
+    causas naturales debido a su avanzada edad.</font></p>
+  <p align="justify"><font color="#993366" size="4"><strong>M&aacute;ximo &Aacute;brego 
+    Rodr&iacute;guez. CV-D-003-01</strong></font><font size="2"><br>
+    Muerte fuera del per&iacute;odo de la competencia de la Comisi&oacute;n. Muere 
+    el 27 de abril de 1998.</font></p>
+  <p align="justify"><font color="#993366" size="4"><strong>Manuel Adames D&iacute;az. 
+    CV-D-004-01</strong></font><font size="2"><br>
+    Acumulaci&oacute;n, misma persona. Acumulado a Manuel D&iacute;az Adames expediente 
+    CV-A-024-01.</font></p>
+  <p align="justify"><font size="4"><strong><font color="#993366">Miguel &Aacute;lvarez 
+    Gonz&aacute;lez. CV-D-006-01</font></strong></font><font color="#993366" size="2"></font><font size="2"><br>
+    La persona est&aacute; viva. Reside en El Guacal, distrito de Boquete, provincia 
+    de Chiriqu&iacute;.</font></p>
+  <p align="justify"><font color="#993366" size="4"><strong>Dionisio Arrocha Castillo. 
+    CV-D-012-01</strong></font><font size="2"><br>
+    Muerte fuera del per&iacute;odo de la competencia de la Comisi&oacute;n de 
+    la Verdad. Fallece en el a&ntilde;o de 1960, en el corregimiento de Dival&aacute;, 
+    distrito de Alanje, provincia de Chiriqu&iacute;; por problemas sindicales 
+    en las bananeras.</font></p>
+  <p align="justify"><font size="2"> <strong><font color="#993366" size="4">Valent&iacute;n 
+    Ba&uacute;les. CV-D-014-01</font></strong><br>
+    La persona est&aacute; viva. Fue entrevistado en las oficinas de la Comisi&oacute;n 
+    de la Verdad en Chiriqu&iacute;.</font></p>
+  <p align="justify"><font color="#993366" size="4"><strong>C&eacute;sar Domingo 
+    Candanedo Valenzuela. CV-D-016-01</strong></font><font size="2"><br>
+    Muerte por causa distinta a la competencia de la Comisi&oacute;n. Fallece 
+    en Boquete, provincia de Chiriqu&iacute; a causa de un paro cardiorrespiratorio, 
+    carcinoma broncog&eacute;nico (causa natural).</font></p>
+  <p align="justify"><font color="#993366" size="4"><strong>Arnulfo Carrera Medina. 
+    CV-D-018-01</strong></font><font size="2"><br>
+    La persona est&aacute; viva. Reside en Loma Colorada, David, provincia de 
+    Chiriqu&iacute;.</font></p>
+  <p align="justify"><font color="#993366" size="4"><strong>E. Castellano P&eacute;rez. 
+    CV-D-019-01</strong></font><font size="2"><br>
+    No existe la persona. Se probaron las combinaciones posibles de Castellano, 
+    Castellanos y P&eacute;rez en el Registro Civil y no apareci&oacute; registro 
+    alguno. Se logr&oacute; determinar que Narciso Cubas P&eacute;rez utilizaba 
+    el seud&oacute;nimo Ram&oacute;n Castellano por lo que se consider&oacute; 
+    que se trata de la misma persona.</font></p>
+  <p align="justify"><font size="4"><strong><font color="#993366">Jacinto Castro. 
+    CV-D-021-01</font></strong></font><font color="#993366" size="2"></font><font size="2"><br>
+    Acumulaci&oacute;n, misma persona. Acumulado a Luis Carlos Castro Quintero 
+    expediente CV-D-024-01.</font></p>
+  <p align="justify"><font color="#993366" size="4"><strong>An&iacute;bal Cede&ntilde;o. 
+    CV-D-023-01</strong></font><font size="2"><br>
+    La persona est&aacute; viva. Es un seud&oacute;nimo. El hijo del se&ntilde;or 
+    Cede&ntilde;o llam&oacute; a la Comisi&oacute;n de la Verdad para indicar 
+    que su padre est&aacute; vivo. </font></p>
+  <p align="justify"><font color="#993366" size="4"><strong>Ariosto Cede&ntilde;o. 
+    CV-D-024-01</strong></font><font size="2"><br>
+    No existe la persona. Se trata de una confusi&oacute;n de nombres entre Anibal 
+    Cede&ntilde;o y Ariosto Gonz&aacute;lez.</font></p>
+  <p align="justify"><font color="#993366" size="4"><strong>Comandante Yango. 
+    CV-D-025-01</strong></font><font size="2"><br>
+    Acumulaci&oacute;n, misma persona. Acumulado a Jos&eacute; Enrique Pimentel 
+    expediente CV-D-072-01. </font></p>
+  <p align="justify"><font color="#993366" size="4"><strong>Alcib&iacute;ades 
+    De la Torre Morales. CV-D-026-01</strong></font><font size="2"><br>
+    La persona est&aacute; viva. Reside en la comunidad de San Vicente, distrito 
+    de Bugaba, provincia de Chiriqu&iacute;.</font></p>
+  <p align="justify"><font color="#993366" size="4"><strong>Porfirio Del Cid Lezcano. 
+    CV-D-027-01</strong></font><font size="2"><br>
+    La persona est&aacute; viva. Reside en Entre R&iacute;os, corregimiento de 
+    Cerro Punta, provincia de Chiriqu&iacute;. </font></p>
+  <p align="justify"><font color="#993366" size="4"><strong>Augusto Delgado Espinoza. 
+    CV-D-028-01</strong></font><strong><font size="2"></font></strong><font size="2"><br>
+    La persona est&aacute; viva. El nombre que recibi&oacute; la Comisi&oacute;n 
+    fue Augusto Roberto Batista Delgado. El verdadero nombre es Augusto Delgado 
+    Espinoza y reside en la V&iacute;a, hacia Cerro Punta en la provincia de Chiriqu&iacute;. 
+    </font></p>
+  <p align="justify"><font color="#993366" size="4"><strong>Harmodio Fong R&iacute;os. 
+    CV-D-031-01</strong></font><font size="2"><br>
+    La persona est&aacute; viva. Reside en Jac&uacute;, provincia de Chiriqu&iacute;.</font></p>
+  <p align="justify"><font color="#993366" size="4"><strong>Cecilio Fuentes. CV-D-032-01</strong></font><font size="2"><br>
+    Acumulaci&oacute;n, misma persona. Acumulado a Cecilio Serrac&iacute;n Fuentes 
+    expediente CV-D-090-01</font></p>
+  <p align="justify"><font color="#993366" size="4"><strong>Justavino Fuentes. 
+    CV-D-033-01</strong></font><font size="2"><br>
+    Acumulaci&oacute;n, misma persona. Acumulado a Cecilio Fuentes expediente 
+    CV-D-036-01.</font></p>
+  <p align="justify"><font size="4"><strong><font color="#993366">Pedro Pablo 
+    Guti&eacute;rrez. CV-D-044-01</font></strong></font><font color="#993366" size="2"></font><font size="2"><br>
+    La persona no desaparece durante el per&iacute;odo del mandato de la Comisi&oacute;n. 
+    Existen positivos de c&eacute;dula del se&ntilde;or Pedro Pablo Guti&eacute;rrez 
+    correspondientes al a&ntilde;o de 1986 y de 1996.</font></p>
+  <p align="justify"><font color="#993366" size="4"><strong>Eduardo Jim&eacute;nez. 
+    CV-D-046-01 </strong></font><font size="2"><br>
+    Muerte por causa distinta a la competencia de la Comisi&oacute;n. Falleci&oacute; 
+    por causas naturales. <br>
+    <br>
+    <font color="#993366" size="4"><strong>Andelelmo Jim&eacute;nez Del Cid. CV-D-048-01</strong></font><br>
+    La persona est&aacute; viva. El nombre que recibi&oacute; la Comisi&oacute;n 
+    fue Anselmo Jim&eacute;nez. El verdadero nombre es Andelelmo Jim&eacute;nez 
+    Del Cid y reside en Paso Ancho, corregimiento de Bugaba, provincia de Chiriqu&iacute;.</font></p>
+  <p align="justify"><font color="#993366" size="4"><strong>Rogelio Abel Lara. 
+    CV-D-050-01</strong></font><font size="2"><br>
+    La persona est&aacute; viva. Fue entrevistado en las oficinas de la Comisi&oacute;n 
+    de la Verdad en Chiriqu&iacute;.</font></p>
+  <p align="justify"><font color="#993366" size="4"><strong>Lizondo Beit&iacute;a. 
+    CV-D-052-01</strong></font><font size="2"><br>
+    Acumulaci&oacute;n, misma persona. Es la misma persona que Generoso Elizondo 
+    y su segundo apellido es Beit&iacute;a. Est&aacute; vivo y reside en Volc&aacute;n, 
+    provincia de Chiriqu&iacute;.</font></p>
+  <p align="justify"><font color="#993366" size="4"><strong>Generoso Lizondo Beit&iacute;a. 
+    CV-D-053-01</strong></font><font size="2"><br>
+    La persona est&aacute; viva. Reside en Volc&aacute;n, provincia de Chiriqu&iacute;.</font></p>
+  <p align="justify"><font color="#993366" size="4"><strong>Hidelbrando Manzo. 
+    CV-D-055-01</strong></font><font size="2"><br>
+    Acumulaci&oacute;n, misma persona. El nombre est&aacute; incorrecto. El nombre 
+    correcto es Heriberto Manzzo expediente CV-A-051-01.</font></p>
+  <p align="justify"><font color="#993366" size="4"><strong>Carlos E. Mathew. 
+    CV-D-057-01</strong></font><font size="2"><br>
+    Muerte fuera del per&iacute;odo de la Comisi&oacute;n de la Verdad. Fallece 
+    en 1966.</font></p>
+  <p align="justify"><font color="#993366" size="4"><strong>Jessica Mendoza Flores. 
+    CV-D-059-01</strong></font><font size="2"><br>
+    Muerte fuera del per&iacute;odo de la Comisi&oacute;n de la Verdad. Desaparece 
+    el 2 de diciembre de 1992.</font></p>
+  <p align="justify"><font color="#993366" size="4"><strong>Luis Carlos Monterrosa 
+    D&iacute;az. CV-D-061-01</strong></font><font size="2"><br>
+    Muerte por causa distinta a la competencia de la Comisi&oacute;n. Muere por 
+    un infarto al miocardio (causa natural), seg&uacute;n consta en el certificado 
+    de defunci&oacute;n y lo confirma la hermana del occiso. </font></p>
+  <p align="justify"><font color="#993366" size="4"><strong>Virgilio Morantes 
+    Madrid. CV-D-067-01</strong></font><font size="2"><br>
+    Muerte fuera del per&iacute;odo de la Comisi&oacute;n de la Verdad. Muere 
+    el 23 de noviembre de 1996 a consecuencia de un accidente.</font></p>
+  <p align="justify"><font color="#993366" size="4"><strong>Reynaldo N&uacute;&ntilde;ez 
+    Navarro. CV-D-068-01</strong></font><font size="2"><br>
+    Desaparici&oacute;n por causa distinta a la competencia de la Comisi&oacute;n. 
+    Se escapa de prisi&oacute;n y no le consta a la Comisi&oacute;n que haya sido 
+    capturado y asesinado posteriormente, cabe la posibilidad de que est&eacute; 
+    vivo.</font></p>
+  <p align="justify"><font size="4"><strong><font color="#993366">Tel&eacute;sforo 
+    Pe&ntilde;a Pineda. CV-D-071-01</font></strong></font><font color="#993366" size="2"></font><font size="2"><br>
+    Muerte por causa distinta a la competencia de la Comisi&oacute;n. No se pudo 
+    esclarecer las circunstancias de su muerte o desaparici&oacute;n, sin embargo, 
+    se aclar&oacute; que el miembro de la Guardia Nacional Fernando Flores a quien 
+    se responsabilizaba de esta desaparici&oacute;n (supuestamente por motivos 
+    pasionales), no estuvo involucrado.</font></p>
+  <p align="justify"><font color="#993366" size="4"><strong>Elipidio Reyes Garc&iacute;a. 
+    CV-D-078-01</strong></font><font size="2"><br>
+    Muerte por causa distinta a la competencia de la Comisi&oacute;n. Muere el 
+    9 de mayo de 1971. No se logr&oacute; comprobar ning&uacute;n v&iacute;nculo 
+    entre su desaparici&oacute;n y el R&eacute;gimen Militar.</font></p>
+  <p align="justify"><font color="#993366" size="4"><strong>Aniceto R&iacute;os 
+    Samudio. CV-D-079-01</strong></font><font size="2"><br>
+    La persona est&aacute; viva. Reside en Entre R&iacute;os, corregimiento de 
+    Cerro Punta, distrito de Bugaba, provincia de Chiriqu&iacute;.</font></p>
+  <p align="justify"><font color="#993366" size="4"><strong>Jorge de la Concepci&oacute;n 
+    Rojas Coloma. CV-D-082-01</strong></font><font size="2"><br>
+    No existe la persona. Se trata de una confusi&oacute;n de nombre con Jos&eacute; 
+    de la Concepci&oacute;n Rojas Coloma, quien fallece el 2 de junio de 1984 
+    a consecuencia de una herida que recibi&oacute; mientras pasaba cerca del 
+    Palacio Legislativo, donde se efectuaba una actividad pol&iacute;tica que 
+    termin&oacute; en enfrentamientos el d&iacute;a 7 de mayo de 1984.</font></p>
+  <p align="justify"><font color="#993366" size="4"><strong>Emanuel Jes&uacute;s 
+    Sab&iacute;n Castillo. CV-D-085-01</strong></font><font size="2"><br>
+    Muerte fuera del per&iacute;odo de la Comisi&oacute;n de la Verdad. Fallece 
+    en 1960.</font></p>
+  <p align="justify"><font color="#993366" size="4"><strong>V&iacute;ctor Salda&ntilde;a 
+    Ara&uacute;z. CV-D-089-01</strong></font><font size="2"><br>
+    La persona est&aacute; viva. Reside en David, provincia de Chiriqu&iacute;.</font></p>
+  <p align="justify"><font color="#993366" size="4"><strong>Abadesa Serrano de 
+    R&iacute;os. CV-D-097-01</strong></font><font size="2"><br>
+    La persona est&aacute; viva. Reside en Entre R&iacute;os, corregimiento de 
+    Cerro Punta, provincia de Chiriqu&iacute;.</font></p>
+  <p align="justify"><font color="#993366" size="4"><strong>Juan Troestch. CV-D-099-01</strong></font><font size="2"><br>
+    La persona est&aacute; viva. La Comisi&oacute;n de la Verdad viaj&oacute; 
+    a Costa Rica donde se le entrevist&oacute;.</font></p>
+  <p align="justify"><br>
+    <font size="2"><strong><font color="#993366" size="4"><strong><font color="#993366" size="4"><strong><a href="Indice.htm"><img src="../AnFlesh.gif" width="16" height="27" border="0"></a></strong></font></strong></font><font size="4">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="../index.html">Home</a></font></strong></font></p>
+</div>
+<div id="Layer2" style="position:absolute; left:61px; top:9px; width:55px; height:55px; z-index:2"><a href="../index.html"><img src="../buttons49d.gif" width="60" height="65" border="0"></a></div>
+</body>
+</html>

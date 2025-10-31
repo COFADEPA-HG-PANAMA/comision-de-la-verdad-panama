@@ -1,0 +1,40 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<title>Introduccion</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<script language="JavaScript" type="text/JavaScript">
+<!--
+function MM_reloadPage(init) {  //reloads the window if Nav4 resized
+  if (init==true) with (navigator) {if ((appName=="Netscape")&&(parseInt(appVersion)==4)) {
+    document.MM_pgW=innerWidth; document.MM_pgH=innerHeight; onresize=MM_reloadPage; }}
+  else if (innerWidth!=document.MM_pgW || innerHeight!=document.MM_pgH) location.reload();
+}
+MM_reloadPage(true);
+//-->
+</script>
+</head>
+
+<body background="../../Activos/lado11.gif" link="#993366" vlink="#003366">
+
+<div id="Layer1" style="position:absolute; left:69px; top:91px; width:680px; height:325px; z-index:1"> 
+  <p align="left"> <strong><font color="#993366" size="5"><strong><a href="../../Capitulo%20VII/AntroSitios.htm"><img src="../../AnFlesh.gif" width="16" height="27" border="0"></a></strong> 
+    <font size="4">Cuartel de Polic&iacute;a de Volc&aacute;n</font></font></strong><font color="#993366" size="5"></font></p>
+  <p align="justify"> <font size="2"><strong>Sitio:</strong>&nbsp;&nbsp;&nbsp;Provincia 
+    de Chiriqu&iacute;<br>
+    <strong>Fecha:</strong> 24 de octubre de 2001. <br>
+    <strong>Antecedentes</strong><br>
+    Seg&uacute;n fuentes an&oacute;nimas, dentro de los predios de dicho cuartel 
+    se encuentran restos humanos y, hasta el momento, no se han realizado m&aacute;s 
+    investigaciones. Sandra Anderson utiliz&oacute; su t&eacute;cnica de trabajo 
+    para realizar una b&uacute;squeda dentro de los predios, sin poder precisar 
+    la localizaci&oacute;n de estos restos por falta de informaci&oacute;n. <br>
+    <strong>Hallazgos </strong><br>
+    No hubo. <br>
+    <strong>Recomendaciones </strong><br>
+    Realizar una investigaci&oacute;n exhaustiva sobre el sitio. </font></p>
+  <p align="justify"><strong><font color="#993366" size="5"><a href="../AntroSitios.htm"><img src="../../AnFlesh.gif" width="16" height="27" border="0"></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="../../index.html"><font size="4">Home</font></a></font></strong></p>
+</div>
+<div id="Layer2" style="position:absolute; left:61px; top:9px; width:44px; height:34px; z-index:2"><a href="../../index.html"><img src="../../buttons49d.gif" width="60" height="65" border="0"></a></div>
+</body>
+</html>
