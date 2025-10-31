@@ -1,4 +1,4 @@
-<html>
+﻿<html>
 <head>
 <title>COFADEPA-HG</title>
 <meta http-equiv="Content-Type" content="text/html;">
@@ -288,6 +288,11 @@ ad/texture.png and the page will use it as a repeating background -->
   /* Center the main table (fixed width 760) */
   table { margin: 0 auto; }
 </style>
+<link rel="stylesheet" href="/css/site-style.css">
+<link rel="icon" href="/favicon.ico" type="image/x-icon">
+<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
 </head>
 <body bgcolor="#ffffff" onLoad="MM_preloadImages('Verdad/Portada_r2_c1_f2.gif','Verdad/Portada_r2_c1_f4.gif','Verdad/Portada_r2_c1_f3.gif','Verdad/Portada_r3_c1_f2.gif','Verdad/Portada_r3_c1_f3.gif','Verdad/Portada_r4_c1_f2.gif','Verdad/Portada_r4_c1_f3.gif','Verdad/Portada_r5_c1_f2.gif','Verdad/Portada_r5_c1_f3.gif','Verdad/Portada_r8_c1_f2.gif','Verdad/Portada_r8_c1_f3.gif','Verdad/Portada_r9_c1_f2.gif','Verdad/Portada_r9_c1_f3.gif','Verdad/Portada_r11_c1_f2.gif','Verdad/Portada_r11_c1_f3.gif','Verdad/Portada_r13_c1_f2.gif','Verdad/Portada_r13_c1_f3.gif','Verdad/Portada_r15_c1_f2.gif','Verdad/Portada_r15_c1_f3.gif','Verdad/Portada_r17_c1_f2.gif','Verdad/Portada_r17_c1_f3.gif');">
 <script language="JavaScript1.2">mmLoadMenus();</script>
@@ -389,3 +394,5 @@ ad/texture.png and the page will use it as a repeating background -->
 </table>
 </body>
 </html>
+
+

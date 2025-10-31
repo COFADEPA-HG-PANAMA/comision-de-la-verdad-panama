@@ -1,8 +1,8 @@
-<html>
+ï»¿<html>
 <head>
 <title>Portada1223.gif</title>
 <meta http-equiv="Content-Type" content="text/html;">
-<!-- Fireworks MX Dreamweaver MX target.  Created Tue Mar 11 00:34:36 GMT-0600 (Hora estándar de México) 2003-->
+<!-- Fireworks MX Dreamweaver MX target.  Created Tue Mar 11 00:34:36 GMT-0600 (Hora estï¿½ndar de Mï¿½xico) 2003-->
 <script language="JavaScript">
 <!--
 function MM_findObj(n, d) { //v4.01
@@ -275,6 +275,11 @@ function mmLoadMenus() {
 //-->
 </script>
 <script language="JavaScript1.2" src="mm_menu.js"></script>
+<link rel="stylesheet" href="/css/site-style.css">
+<link rel="icon" href="/favicon.ico" type="image/x-icon">
+<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
 </head>
 <body bgcolor="#ffffff" onLoad="MM_preloadImages('Verdad/Portada1223_r2_c1_f2.gif','Verdad/Portada1223_r2_c1_f4.gif','Verdad/Portada1223_r2_c1_f3.gif','Verdad/Portada1223_r3_c1_f2.gif','Verdad/Portada1223_r3_c1_f3.gif','Verdad/Portada1223_r4_c1_f2.gif','Verdad/Portada1223_r4_c1_f3.gif','Verdad/Portada1223_r5_c1_f2.gif','Verdad/Portada1223_r5_c1_f3.gif','Verdad/Portada1223_r8_c1_f2.gif','Verdad/Portada1223_r8_c1_f3.gif','Verdad/Portada1223_r9_c1_f2.gif','Verdad/Portada1223_r9_c1_f3.gif','Verdad/Portada1223_r11_c1_f2.gif','Verdad/Portada1223_r11_c1_f3.gif','Verdad/Portada1223_r13_c1_f2.gif','Verdad/Portada1223_r13_c1_f3.gif','Verdad/Portada1223_r15_c1_f2.gif','Verdad/Portada1223_r15_c1_f3.gif','Verdad/Portada1223_r17_c1_f2.gif','Verdad/Portada1223_r17_c1_f3.gif');">
 <script language="JavaScript1.2">mmLoadMenus();</script>
@@ -376,3 +381,5 @@ function mmLoadMenus() {
 </table>
 </body>
 </html>
+
+
