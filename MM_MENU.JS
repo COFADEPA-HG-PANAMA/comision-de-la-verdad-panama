@@ -327,14 +327,33 @@ function writeMenus(container) {
 			menu.clip.height = body.clip.height + (proto.menuBorder * 3);
 		}
 	} else {
-		if ((!document.all) && (container.hasChildNodes) && !window.mmIsOpera) {
-			container.innerHTML=content;
-		} else {
-			container.document.open("text/html");
-			container.document.writeln(content);
-			container.document.close();	
-		}
-		if (!FIND("menuLayer0")) return;
+		try {
+            // Create a temporary container to validate the content
+            var tempDiv = document.createElement('div');
+            tempDiv.innerHTML = content;
+            
+            // Clear and update the container
+            while (container.firstChild) {
+                container.removeChild(container.firstChild);
+            }
+            while (tempDiv.firstChild) {
+                container.appendChild(tempDiv.firstChild);
+            }
+        } catch (e) {
+            console.log('Menu initialization error:', e);
+            if ((!document.all) && (container.hasChildNodes) && !window.mmIsOpera) {
+                container.innerHTML = content;
+            } else {
+                try {
+                    container.document.open("text/html");
+                    container.document.writeln(content);
+                    container.document.close();
+                } catch(e2) {
+                    console.log('Fallback menu initialization error:', e2);
+                }
+            }
+        }
+        if (!FIND("menuLayer0")) return;
 		var menuCount = 0;
 		for (var x=0; x<container.menus.length; x++) {
 			var menuLayer = FIND("menuLayer" + x);
@@ -465,53 +484,64 @@ function NS4resize() {
 }
 
 function onMenuItemOver(e, l) {
-	MM_clearTimeout();
-	l = l || this;
-	a = window.ActiveMenuItem;
-	if (document.layers) {
-		if (a) {
-			a.document.bgColor = a.saveColor;
-			if (a.hilite) a.hilite.visibility = "hidden";
-			if (a.Menu.bgImageOver) a.background.src = a.Menu.bgImageUp;
-			a.focusItem.top = -100;
-			a.clicked = false;
-		}
-		if (l.hilite) {
-			l.document.bgColor = l.menuHiliteBgColor;
-			l.zIndex = 1;
-			l.hilite.visibility = "inherit";
-			l.hilite.zIndex = 2;
-			l.document.layers[1].zIndex = 1;
-			l.focusItem.zIndex = this.zIndex +2;
-		}
-		if (l.Menu.bgImageOver) l.background.src = l.Menu.bgImageOver;
-		l.focusItem.top = this.top;
-		l.focusItem.left = this.left;
-		l.focusItem.clip.width = l.clip.width;
-		l.focusItem.clip.height = l.clip.height;
-		l.Menu.hideChildMenu(l);
-	} else if (l.style && l.Menu) {
-		if (a) {
-			a.style.backgroundColor = a.saveColor;
-			if (a.hilite) a.hilite.style.visibility = "hidden";
-			if (a.hiliteShim) a.hiliteShim.style.visibility = "inherit";
-			if (a.Menu.bgImageUp) a.style.background = "url(" + a.Menu.bgImageUp +")";;
-		} 
-		l.style.backgroundColor = l.menuHiliteBgColor;
-		l.zIndex = 1;
-		if (l.Menu.bgImageOver) l.style.background = "url(" + l.Menu.bgImageOver +")";
-		if (l.hilite) {
-			l.hilite.style.visibility = "inherit";
-			if( l.hiliteShim ) l.hiliteShim.style.visibility = "visible";
-		}
-		l.focusItem.style.pixelTop = l.style.pixelTop;
-		l.focusItem.style.top = l.focusItem.style.pixelTop + 'px';
-		l.focusItem.style.pixelLeft = l.style.pixelLeft;
-		l.focusItem.style.left = l.focusItem.style.pixelLeft + 'px';
-		l.focusItem.style.zIndex = l.zIndex +1;
-		l.Menu.hideChildMenu(l);
-	} else return;
-	window.ActiveMenuItem = l;
+    MM_clearTimeout();
+    l = l || this;
+    var a = window.ActiveMenuItem;
+    
+    if (document.layers) {
+        if (a) {
+            a.document.bgColor = a.saveColor;
+            if (a.hilite) a.hilite.visibility = "hidden";
+            if (a.Menu && a.Menu.bgImageOver) a.background.src = a.Menu.bgImageUp;
+            a.focusItem.top = -100;
+            a.clicked = false;
+        }
+        if (l.hilite) {
+            l.document.bgColor = l.menuHiliteBgColor;
+            l.zIndex = 1;
+            l.hilite.visibility = "inherit";
+            l.hilite.zIndex = 2;
+            l.document.layers[1].zIndex = 1;
+            l.focusItem.zIndex = this.zIndex +2;
+        }
+        if (l.Menu && l.Menu.bgImageOver) l.background.src = l.Menu.bgImageOver;
+        l.focusItem.top = this.top;
+        l.focusItem.left = this.left;
+        l.focusItem.clip.width = l.clip.width;
+        l.focusItem.clip.height = l.clip.height;
+        if (l.Menu) l.Menu.hideChildMenu(l);
+    } else if (l.style && l.Menu) {
+        if (a) {
+            a.style.backgroundColor = a.saveColor;
+            if (a.hilite) {
+                a.hilite.style.visibility = "hidden";
+                if (a.hiliteShim) a.hiliteShim.style.visibility = "inherit";
+            }
+            if (a.Menu && a.Menu.bgImageUp) {
+                a.style.background = "url(" + a.Menu.bgImageUp +")";
+            }
+        } 
+        l.style.backgroundColor = l.menuHiliteBgColor;
+        l.style.zIndex = 20001; // Ensure menu items are above container
+        if (l.Menu.bgImageOver) l.style.background = "url(" + l.Menu.bgImageOver +")";
+        if (l.hilite) {
+            l.hilite.style.visibility = "inherit";
+            l.hilite.style.zIndex = 20002; // Ensure highlights are above items
+            if(l.hiliteShim) l.hiliteShim.style.visibility = "visible";
+        }
+        if (l.focusItem) {
+            if (typeof l.style.pixelTop !== 'undefined') {
+                l.focusItem.style.pixelTop = l.style.pixelTop;
+                l.focusItem.style.pixelLeft = l.style.pixelLeft;
+            }
+            l.focusItem.style.top = (parseInt(l.style.top) || 0) + 'px';
+            l.focusItem.style.left = (parseInt(l.style.left) || 0) + 'px';
+            l.focusItem.style.zIndex = 20003; // Ensure focus is above all
+        }
+        l.Menu.hideChildMenu(l);
+    } else return;
+    
+    window.ActiveMenuItem = l;
 }
 
 function onMenuItemAction(e, l) {
@@ -575,10 +605,10 @@ function MM_showMenu(menu, x, y, child, imgname) {
 		if (l.parentLayer) {
 			if (x != "relative") l.parentLayer.left = x || window.pageX || 0;
 			if (l.parentLayer.left + l.clip.width > window.innerWidth) l.parentLayer.left -= (l.parentLayer.left + l.clip.width - window.innerWidth);
-			if (y != "relative") l.parentLayer.top = y || window.pageY || 0;
+			if (y != "relative") l.parentLayer.top = (y || window.pageY || 0) - 20; // Ajustado 20px arriba
 			if (l.parentLayer.isContainer) {
 				l.Menu.xOffset = window.pageXOffset;
-				l.Menu.yOffset = window.pageYOffset;
+				l.Menu.yOffset = window.pageYOffset - 20; // Ajustado el offset vertical
 				l.parentLayer.clip.width = window.ActiveMenu.clip.width +2;
 				l.parentLayer.clip.height = window.ActiveMenu.clip.height +2;
 				if (l.parentLayer.menuContainerBgColor && l.Menu.menuBgOpaque ) l.parentLayer.document.bgColor = l.parentLayer.menuContainerBgColor;
@@ -598,7 +628,7 @@ function MM_showMenu(menu, x, y, child, imgname) {
 			s.left = s.pixelLeft + 'px';
 		}
 		if (y != "relative") {
-			s.pixelTop = y || (window.pageY + document.body.scrollTop) || 0;
+			s.pixelTop = (y || (window.pageY + document.body.scrollTop) || 0) - 20; // Ajustado 20px arriba
 			s.top = s.pixelTop + 'px';
 		}
 		l.Menu.xOffset = document.body.scrollLeft;
@@ -643,33 +673,39 @@ function mouseoutMenu() {
 }
 
 function hideMenu(mouseup, e) {
-	var a = window.ActiveMenuItem;
-	if (a && document.layers) {
-		a.document.bgColor = a.saveColor;
-		a.focusItem.top = -30;
-		if (a.hilite) a.hilite.visibility = "hidden";
-		if (mouseup && a.mmaction && a.clicked && window.ActiveMenu) {
- 			if (a.eX <= e.pageX+15 && a.eX >= e.pageX-15 && a.eY <= e.pageY+10 && a.eY >= e.pageY-10) {
-				setTimeout('window.ActiveMenu.Menu.onMenuItemAction();', 500);
-			}
-		}
-		a.clicked = false;
-		if (a.Menu.bgImageOver) a.background.src = a.Menu.bgImageUp;
-	} else if (window.ActiveMenu && FIND("menuItem0")) {
-		if (a) {
-			a.style.backgroundColor = a.saveColor;
-			if (a.hilite) a.hilite.style.visibility = "hidden";
-			if (a.hiliteShim) a.hiliteShim.style.visibility = "inherit";
-			if (a.Menu.bgImageUp) a.style.background = "url(" + a.Menu.bgImageUp +")";
-		}
-	}
-	if (!mouseup && window.ActiveMenu) {
-		if (window.ActiveMenu.Menu) {
-			if (window.ActiveMenu.Menu.hideOnMouseOut) MM_startTimeout();
-			return(true);
-		}
-	}
-	return(true);
+    var a = window.ActiveMenuItem;
+    if (a && document.layers) {
+        a.document.bgColor = a.saveColor;
+        a.focusItem.top = -30;
+        if (a.hilite) a.hilite.visibility = "hidden";
+        if (mouseup && a.mmaction && a.clicked && window.ActiveMenu) {
+            if (e && a.eX <= e.pageX+15 && a.eX >= e.pageX-15 && a.eY <= e.pageY+10 && a.eY >= e.pageY-10) {
+                setTimeout('window.ActiveMenu.Menu.onMenuItemAction();', 500);
+            }
+        }
+        a.clicked = false;
+        if (a.Menu && a.Menu.bgImageOver) a.background.src = a.Menu.bgImageUp;
+    } else if (window.ActiveMenu && FIND("menuItem0")) {
+        if (a) {
+            a.style.backgroundColor = a.saveColor;
+            if (a.hilite) {
+                a.hilite.style.visibility = "hidden";
+                if (a.hiliteShim) a.hiliteShim.style.visibility = "inherit";
+            }
+            if (a.Menu && a.Menu.bgImageUp) {
+                a.style.background = "url(" + a.Menu.bgImageUp +")";
+            }
+        }
+    }
+    if (!mouseup && window.ActiveMenu) {
+        if (window.ActiveMenu.Menu) {
+            if (window.ActiveMenu.Menu.hideOnMouseOut) {
+                MM_startTimeout();
+            }
+            return true;
+        }
+    }
+    return true;
 }
 
 function hideChildMenu(hcmLayer) {
@@ -717,7 +753,7 @@ function hideChildMenu(hcmLayer) {
 			var s = childMenu.style;
 			s.zIndex = menuLayer.style.zIndex+1;
 			if (document.all || window.mmIsOpera) {
-				s.pixelTop = menuLayer.style.pixelTop + l.Menu.submenuYOffset;
+				s.pixelTop = (menuLayer.style.pixelTop + l.Menu.submenuYOffset) - 20; // Ajustado 20px arriba
 				if( l.Menu.vertical ) {
 					if( l.Menu.submenuRelativeToItem ) s.pixelTop += l.style.pixelTop;
 					s.pixelLeft = l.style.pixelWidth + menuLayer.style.pixelLeft + l.Menu.submenuXOffset;
