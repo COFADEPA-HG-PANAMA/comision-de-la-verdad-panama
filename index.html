@@ -291,6 +291,18 @@ function mmLoadMenus() {
     min-width: 760px;
   }
 
+  /* Asegurar que los menús emergentes estén por encima de las imágenes */
+  #menuContainer {
+    position: relative;
+    z-index: 20000 !important;
+  }
+
+  /* Los elementos generados por mm_menu se llaman menuLayerN */
+  div[id^="menuLayer"] {
+    z-index: 20001 !important;
+    position: absolute !important;
+  }
+
   /* Center the main table */
   table {
     margin: 0 auto;

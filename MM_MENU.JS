@@ -60,6 +60,32 @@ function Menu(label, mw, mh, fnt, fs, fclr, fhclr, bg, bgh, halgn, valgn, pad, s
 	if (!window.activeMenus) window.activeMenus = new Array();
 }
 
+/* Fix absolute-leading '/' resource URLs at runtime so pages work when
+	 deployed under a subdirectory or when server root differs from local path.
+	 This will convert href/src that start with '/' to a relative path
+	 by removing the initial slash. Runs on DOMContentLoaded so it affects
+	 link/script/img/area/a elements. */
+function mm_fixAbsolutePaths() {
+	try {
+		var sel = 'link[href^="/"], script[src^="/"], img[src^="/"], a[href^="/"], area[href^="/"]';
+		var nodes = document.querySelectorAll(sel);
+		for (var i = 0; i < nodes.length; i++) {
+			var el = nodes[i];
+			if (el.hasAttribute('href')) {
+				var v = el.getAttribute('href');
+				if (v && v.charAt(0) === '/') el.setAttribute('href', v.substring(1));
+			}
+			if (el.hasAttribute('src')) {
+				var s = el.getAttribute('src');
+				if (s && s.charAt(0) === '/') el.setAttribute('src', s.substring(1));
+			}
+		}
+	} catch (e) { /* fail silently */ }
+}
+
+if (document.addEventListener) document.addEventListener('DOMContentLoaded', mm_fixAbsolutePaths, false);
+else if (window.attachEvent) window.attachEvent('onload', mm_fixAbsolutePaths);
+
 function addMenuItem(label, action) {
 	this.items[this.items.length] = label;
 	this.actions[this.actions.length] = action;
@@ -84,6 +110,16 @@ function writeMenus(container) {
 	} else if (document.all || document.hasChildNodes || window.mmIsOpera) {
 		document.writeln('<span id="menuContainer"></span>');
 		container = FIND("menuContainer");
+		// Ensure menu container is attached to document.body and above other content
+		try {
+		  if (container) {
+		    container.style.position = container.style.position || 'relative';
+		    container.style.zIndex = 20000;
+		    if (container.parentNode && container.parentNode !== document.body) {
+		      document.body.appendChild(container);
+		    }
+		  }
+		} catch(e) { /* ignore */ }
 	}
 
 	window.mmHideMenuTimer = null;
