@@ -1,11 +1,10 @@
 ﻿<html>
 <head>
-<link rel="icon" href="/favicon.ico" type="image/x-icon">
-<link rel='shortcut icon' href='/favicon.ico' type='image/x-icon'>
-<link rel='icon' href='favicon.ico' type='image/x-icon'>
+<link rel="icon" href="favicon.ico" type="image/x-icon">
+<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
 
 <title>COFADEPA-HG</title>
-<meta http-equiv="Content-Type" content="text/html;">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <!-- Fireworks MX Dreamweaver MX target.  Created Sat Mar 15 00:20:35 GMT-0600 (Hora est�ndar de M�xico) 2003-->
 <script language="JavaScript">
 <!--
@@ -280,22 +279,65 @@ function mmLoadMenus() {
 </script>
 <script language="JavaScript1.2" src="mm_menu.js"></script>
 
-<!-- Background texture: save the attached image as Verd
-ad/texture.png and the page will use it as a repeating background -->
 <style>
-  /* Page background texture (fallback color kept) */
+  /* Estilos principales */
   body {
     background-image: url('Verdad/texture.png');
     background-repeat: repeat;
     background-color: #ffffff;
+    margin: 0;
+    padding: 20px;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    min-width: 760px;
   }
-  /* Center the main table (fixed width 760) */
-  table { margin: 0 auto; }
+
+  /* Center the main table */
+  table {
+    margin: 0 auto;
+    border-collapse: collapse;
+    width: 760px;
+  }
+
+  /* Estilos para el reproductor de audio */
+  #audio-player {
+    text-align: center;
+    margin: 10px auto;
+    width: 200px;
+    padding: 8px 10px;
+    background: linear-gradient(180deg, rgba(255,255,255,0.98), rgba(245,245,245,0.95));
+    border-radius: 14px;
+    border: 1px solid rgba(0,0,0,0.06);
+    box-shadow: 0 2px 6px rgba(0,0,0,0.08);
+    display: block;
+  }
+
+  #audio-player p {
+    margin: 5px 0;
+    font-size: 12px;
+  }
+
+  audio {
+    width: 160px !important;
+    max-width: 100%;
+    display: block;
+    margin: 0 auto;
+    /* intento de redondear controles nativos (puede no afectar en todos los navegadores) */
+    border-radius: 10px;
+    overflow: hidden;
+  }
+
+  /* Estilos para enlaces */
+  a {
+    color: #003366;
+    text-decoration: none;
+  }
+
+  a:hover {
+    text-decoration: underline;
+  }
 </style>
-<link rel="stylesheet" href="/css/site-style.css">
-<link rel="icon" href="/favicon.ico" type="image/x-icon">
-<link rel='shortcut icon' href='/favicon.ico' type='image/x-icon'>
-<link rel='icon' href='favicon.ico' type='image/x-icon'>
+<link rel="icon" href="favicon.ico" type="image/x-icon">
+<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
 
 
 </head>
@@ -396,16 +438,18 @@ ad/texture.png and the page will use it as a repeating background -->
 <area shape="rect" coords="152,48,217,112" href="CapituloV/Demostenes Rodriguez Alvarez.htm" alt="" onMouseOut="MM_startTimeout();"  onMouseOver="MM_showMenu(window.mm_menu_1007000705_4,85,21,null,'Portada_r2_c2');"  >
 <area shape="rect" coords="88,48,152,113" href="CapituloV/Dora Ceferina Moreno Jaen.htm" alt="" onMouseOut="MM_startTimeout();"  onMouseOver="MM_showMenu(window.mm_menu_1006235002_0,85,21,null,'Portada_r2_c2');"  >
 </map>
+  <tr>
+   <td colspan="2" style="text-align:center;">
+     <div id="audio-player" style="width:200px; margin:10px auto;">
+       <p style="margin:6px 0; font-size:12px;"><strong>Música de fondo:</strong></p>
+       <audio controls autoplay loop style="width:180px;">
+         <source src="audio/mi-audio.mp3" type="audio/mpeg">
+         Tu navegador no soporta el elemento de audio. <a href="audio/mi-audio.mp3">Descargar audio</a>
+       </audio>
+     </div>
+   </td>
+  </tr>
 </table>
-
-  <!-- Reproductor de audio local -->
-  <div id="audio-player" style="text-align:center; margin:1em 0;">
-    <p><strong>Música de fondo:</strong></p>
-    <audio controls autoplay loop>
-      <source src="audio/mi-audio.mp3" type="audio/mpeg">
-      Tu navegador no soporta el elemento de audio. <a href="audio/mi-audio.mp3">Descargar audio</a>
-    </audio>
-  </div>
 
 </body>
 </html>
