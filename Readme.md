@@ -1,6 +1,6 @@
 # 🇵🇦 Recursos Abiertos de la Comisión de la Verdad de Panamá (2001-2002)
 
-[![Estado del Repositorio](https://img.shields.io/badge/Estado-Activo-blue.svg)](https://github.com/NombreDeLaOrganizacion/Comision-Verdad-Panama-Datos)
+[![Estado del Repositorio](https://img.shields.io/badge/Estado-Activo-blue.svg)](https://cofadepa-hg-panama.github.io/comision-de-la-verdad-panama/)
 [![Licencia](https://img.shields.io/badge/Licencia-CC%20BY%204.0-red)](LICENSE.md)
 
 Este repositorio actúa como un archivo de recursos de **código abierto** (Open Source) para el material relacionado con la **Comisión de la Verdad de Panamá**, establecida mediante el Decreto Ejecutivo No. 99 del 10 de mayo de 2001, para investigar crímenes y desapariciones ocurridas durante el periodo militar (1968-1989).
@@ -41,4 +41,28 @@ import pandas as pd
 df_victimas = pd.read_csv('datos_estructurados/victimas_resumen.csv')
 
 print(f"Total de registros de víctimas: {len(df_victimas)}")
+
 print(df_victimas.head())
+---
+
+## 🔗 2. El Libro y la Plataforma Web
+
+Los recursos en este repositorio están directamente vinculados a dos fuentes principales:
+
+### **2.1. El Libro: Informe Final de la Comisión de la Verdad**
+* Es el documento oficial entregado en 2002, que contiene los hallazgos, conclusiones y recomendaciones de la Comisión.
+* En la carpeta `informe_final/` se encuentra la versión digital de este libro para su descarga.
+
+### **2.2. La Plataforma Digital (Web Oficial)**
+* La página web oficial es el principal punto de difusión de la Comisión de la Verdad y aloja el contenido del libro de forma interactiva.
+* **Enlace de Interés:** [Dirección URL de la Plataforma Web Oficial de la Comisión]
+    * *Sugerencia SEO: Asegúrate de reemplazar `[Dirección URL de la Plataforma Web Oficial de la Comisión]` con el enlace exacto a la web para que Google pueda seguir ese enlace y validar la autoridad de tu repositorio.*
+
+---
+
+## 🔎 Contenido del Repositorio (Resto de la tabla de contenidos...)
+
+...
+website
+comision de la verdad de panama
+ cofadepa hg
